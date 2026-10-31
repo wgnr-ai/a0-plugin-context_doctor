@@ -51,7 +51,7 @@ context_doctor/
 │   ├── _functions/agent/Agent/hist_add_ai_response/end/_05_store_last_response.py
 │   ├── _functions/agent/Agent/hist_add_ai_response/end/_20_context_doctor.py
 │   ├── _functions/agent/Agent/hist_add_warning/start/_10_suppress_empty_response_warnings.py
-│   └── tool_execute_before/_30_context_doctor.py
+│   └── tool_execute_before/_05_context_doctor.py
 ├── webui/config.html
 ├── tests/                             # unit + integration + e2e (92 tests)
 │   └── vendor/                        # upstream json_repair suite (302 tests)

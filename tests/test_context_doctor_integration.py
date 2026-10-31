@@ -148,7 +148,7 @@ def test_response_stream_end_skips_non_json_with_real_log() -> None:
 
 def test_tool_execute_before_with_real_loop_data() -> None:
     from agent import LoopData
-    from usr.plugins.context_doctor.extensions.python.tool_execute_before._30_context_doctor import (
+    from usr.plugins.context_doctor.extensions.python.tool_execute_before._05_context_doctor import (
         ContextDoctorTool,
     )
 
@@ -168,7 +168,7 @@ def test_tool_execute_before_with_real_loop_data() -> None:
 
 def test_tool_execute_before_skips_plain_response_with_real_loop_data() -> None:
     from agent import LoopData
-    from usr.plugins.context_doctor.extensions.python.tool_execute_before._30_context_doctor import (
+    from usr.plugins.context_doctor.extensions.python.tool_execute_before._05_context_doctor import (
         ContextDoctorTool,
     )
 

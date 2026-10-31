@@ -282,7 +282,7 @@ def test_hist_add_ai_response_end_no_result() -> None:
 
 
 def test_tool_execute_before_replaces_args_from_full_response() -> None:
-    from usr.plugins.context_doctor.extensions.python.tool_execute_before._30_context_doctor import (
+    from usr.plugins.context_doctor.extensions.python.tool_execute_before._05_context_doctor import (
         ContextDoctorTool,
     )
 
@@ -300,7 +300,7 @@ def test_tool_execute_before_replaces_args_from_full_response() -> None:
 
 
 def test_tool_execute_before_skips_non_json_response() -> None:
-    from usr.plugins.context_doctor.extensions.python.tool_execute_before._30_context_doctor import (
+    from usr.plugins.context_doctor.extensions.python.tool_execute_before._05_context_doctor import (
         ContextDoctorTool,
     )
 
@@ -318,7 +318,7 @@ def test_tool_execute_before_skips_non_json_response() -> None:
 
 
 def test_tool_execute_before_skips_non_dict_args() -> None:
-    from usr.plugins.context_doctor.extensions.python.tool_execute_before._30_context_doctor import (
+    from usr.plugins.context_doctor.extensions.python.tool_execute_before._05_context_doctor import (
         ContextDoctorTool,
     )
 
@@ -330,7 +330,7 @@ def test_tool_execute_before_skips_non_dict_args() -> None:
 
 
 def test_tool_execute_before_skips_missing_loop_data() -> None:
-    from usr.plugins.context_doctor.extensions.python.tool_execute_before._30_context_doctor import (
+    from usr.plugins.context_doctor.extensions.python.tool_execute_before._05_context_doctor import (
         ContextDoctorTool,
     )
 
@@ -347,7 +347,7 @@ def test_tool_execute_before_skips_missing_loop_data() -> None:
 
 
 def test_tool_execute_before_skips_response_without_tool_name() -> None:
-    from usr.plugins.context_doctor.extensions.python.tool_execute_before._30_context_doctor import (
+    from usr.plugins.context_doctor.extensions.python.tool_execute_before._05_context_doctor import (
         ContextDoctorTool,
     )
 

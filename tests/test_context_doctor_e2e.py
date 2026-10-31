@@ -224,7 +224,7 @@ async def test_process_llm_result_tools_no_misformat_after_repair() -> None:
 @pytest.mark.asyncio
 async def test_tool_execute_before_receives_repaired_args() -> None:
     """The tool_execute_before extension receives tool_args from the repaired full response."""
-    from usr.plugins.context_doctor.extensions.python.tool_execute_before._30_context_doctor import (
+    from usr.plugins.context_doctor.extensions.python.tool_execute_before._05_context_doctor import (
         ContextDoctorTool,
     )
 
